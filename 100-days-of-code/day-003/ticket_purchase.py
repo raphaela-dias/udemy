@@ -29,6 +29,8 @@ if valid_height >= 120:
     elif 12 < valid_age <= 18:
         print("Your ticket is $7.")
         ticket += 7
+    elif 45 <= valid_age <= 55:
+        print("The ride is on us today!\nWe hope you feel better soon!")
     else:
         print("Your ticket is $12")
         ticket += 12 
